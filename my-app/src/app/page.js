@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import HelloWorld from './HelloWorld'
+import BasicTable from './BasicTable'
 
 export default function Home() {
   return (
       <div>
-        <HelloWorld />
+        <BasicTable />
       </div>
     // <main className={styles.main}>
     //   <div className={styles.description}>
